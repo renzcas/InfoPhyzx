@@ -1,0 +1,72 @@
+#InfoPhyzx/
+├── infophyz/
+│   ├── __init__.py
+│   ├── server/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── run_server.py
+│   │   └── api/
+│   │       ├── __init__.py
+│   │       └── routes/
+│   │           ├── __init__.py
+│   │           ├── cosmos.py
+│   │           └── math.py
+│   │
+│   ├── engine/
+│   │   ├── __init__.py
+│   │   └── cosmos/
+│   │       ├── __init__.py
+│   │       ├── runner/
+│   │       │   ├── __init__.py
+│   │       │   └── cosmos_runner.py
+│   │       │
+│   │       ├── flow/
+│   │       │   ├── __init__.py
+│   │       │   └── flow.py
+│   │       │
+│   │       ├── meta/
+│   │       │   ├── __init__.py
+│   │       │   └── meta.py
+│   │       │
+│   │       ├── surgery/
+│   │       │   ├── __init__.py
+│   │       │   └── surgery.py
+│   │       │
+│   │       ├── lineage/
+│   │       │   ├── __init__.py
+│   │       │   └── lineage.py
+│   │       │
+│   │       ├── episodes/
+│   │       │   ├── __init__.py
+│   │       │   └── episodes.py
+│   │       │
+│   │       └── math/
+│   │           ├── __init__.py
+│   │           ├── primes.py
+│   │           ├── hilbert.py
+│   │           ├── riemann.py
+│   │           ├── ricci.py
+│   │           └── perelman.py
+│   │
+│   └── data/
+│       └── (optional future datasets)
+│
+├── client/
+│   ├── index.html
+│   ├── vite.config.js
+│   ├── package.json
+│   ├── src/
+│   │   ├── index.js
+│   │   ├── App.jsx
+│   │   ├── context/
+│   │   │   └── TimeContext.js
+│   │   └── components/
+│   │       ├── ControlPanel.jsx
+│   │       ├── MathUniversePanel.jsx
+│   │       └── CosmosGraphPanel.jsx
+│   │
+│   └── public/
+│       └── (optional assets)
+│
+├── README.md
+└── requirements.txt
